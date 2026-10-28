@@ -1,0 +1,33 @@
+# Compiled Binaries
+*.exe
+*.dll
+*.so
+*.out
+*.bin
+
+# Wine & Linux Environment Artifacts
+.wine/
+.wine32/
+.winemodern/
+wine_debug.log
+core
+*.dmp
+
+# Compiler Artifacts
+*.o
+*.obj
+*.a
+*.lib
+
+# OS Specific Files
+.DS_Store
+Thumb.db
+
+# Editing & Tooling
+.*.swp
+.*.swo
+.netrwhist
+tags
+
+# Git
+.git/
