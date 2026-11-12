@@ -2,12 +2,19 @@
 
 A simple tree directory viewer written in C inspired by Hayyoth on YouTube.
 
-## Design
+## Features
 
 - get path
 - walk(path)
   - if is dir -> walk(sub dir)
   - if is file -> print(file)
+
+- coming soon
+  - depth control (-L)
+  - directory only toggle (-d)
+  - hidden file and dotfile filtering
+  - infinite loop protection against symlinks (symbolic link back to parent directory)
+  - return size of directory alongside the directory name
 
 ## Prerequsites
 
